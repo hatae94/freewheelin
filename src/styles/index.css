@@ -2,25 +2,3 @@
 
 @import './font.css';
 @import './icon.css';
-
-/* body {
-  margin: 0;
-  font-family: 'SpoqaHanSansNeo-Regular', 'SpoqaHanSansNeo-Medium', 'SpoqaHanSansNeo-Bold';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  min-height: 100vh;
-}
-
-body * {
-  box-sizing: border-box;
-}
-
-.content {
-  min-height: auto !important;
-}
-
-.test {
-  background-color: green;
-  width: max-content;
-} */
