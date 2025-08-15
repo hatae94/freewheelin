@@ -1,0 +1,93 @@
+@layer components {
+  .flex-center {
+    @apply flex justify-center;
+  }
+  .flex-center-center {
+    @apply flex items-center justify-center;
+  }
+  .flex-center-end {
+    @apply flex items-end justify-center;
+  }
+  .flex-center-stretch {
+    @apply flex items-stretch justify-center;
+  }
+
+  .flex-start-center {
+    @apply flex items-center justify-start;
+  }
+  .flex-start-end {
+    @apply flex items-end justify-start;
+  }
+  .flex-start-stretch {
+    @apply flex items-stretch justify-start;
+  }
+
+  .flex-between {
+    @apply flex justify-between;
+  }
+  .flex-between-center {
+    @apply flex items-center justify-between;
+  }
+  .flex-between-end {
+    @apply flex items-end justify-between;
+  }
+  .flex-between-stretch {
+    @apply flex items-stretch justify-between;
+  }
+
+  .flex-end {
+    @apply flex justify-end;
+  }
+  .flex-end-center {
+    @apply flex items-center justify-end;
+  }
+  .flex-end-end {
+    @apply flex items-end justify-end;
+  }
+  .flex-end-stretch {
+    @apply flex items-stretch justify-end;
+  }
+
+  .flex-row {
+    @apply flex flex-col;
+  }
+  .flex-col {
+    @apply flex flex-col;
+  }
+
+  .flex-center-col {
+    @apply flex flex-col justify-center;
+  }
+  .flex-center-center-col {
+    @apply flex flex-col items-center justify-center;
+  }
+  .flex-center-end-col {
+    @apply flex flex-col items-end justify-center;
+  }
+  .flex-center-stretch-col {
+    @apply flex flex-col items-stretch justify-center;
+  }
+
+  .flex-start-center-col {
+    @apply flex flex-col items-center justify-start;
+  }
+  .flex-start-end-col {
+    @apply flex flex-col items-end justify-start;
+  }
+  .flex-start-stretch-col {
+    @apply flex flex-col items-stretch justify-start;
+  }
+
+  .flex-between-col {
+    @apply flex flex-col justify-between;
+  }
+  .flex-between-center-col {
+    @apply flex flex-col items-center justify-between;
+  }
+  .flex-between-end-col {
+    @apply flex flex-col items-end justify-between;
+  }
+  .flex-between-stretch-col {
+    @apply flex flex-col items-stretch justify-between;
+  }
+}

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'SpoqaHanSansNeo-Bold';
+  src: url('../../assets/fonts/typhography/SpoqaHanSansNeo-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'SpoqaHanSansNeo-Medium';
+  src: url('../../assets/fonts/typhography/SpoqaHanSansNeo-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'SpoqaHanSansNeo-Regular';
+  src: url('../../assets/fonts/typhography/SpoqaHanSansNeo-Regular.ttf');
+}
+
+@utility font-bold {
+  font-family: 'SpoqaHanSansNeo-Bold';
+  font-weight: 700;
+}
+@utility font-medium {
+  font-family: 'SpoqaHanSansNeo-Medium';
+  font-weight: 500;
+}
+@utility font-regular {
+  font-family: 'SpoqaHanSansNeo-Regular';
+  font-weight: 400;
+}
+
+@theme {
+  --default-font-family: 'SpoqaHanSansNeo-Regular';
+}
